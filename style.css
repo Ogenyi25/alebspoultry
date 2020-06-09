@@ -1,3 +1,23 @@
 .strong {
   color: rgb(45, 192, 45);
 }
+.welcome-section {
+  background-image: url(images/birds.png);
+  height: 100vh;
+  background-size: cover;
+}
+.welcome-note {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  padding: 150px 0px 0px 60px;
+  width: 700px;
+}
+.brief {
+  color: #fff;
+  padding: 20px 0px 0px 60px;
+  font-size: larger;
+}
+.btn {
+  margin: 50px 0px 0px 150px;
+}
