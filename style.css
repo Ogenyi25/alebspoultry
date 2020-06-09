@@ -40,5 +40,44 @@ body {
 }
 .span {
   color: rgb(80, 224, 80);
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  .welcome-section {
+    background-image: url(images/birds.png);
+    height: 90vh;
+    
+    width: 100%;
+  }
+  .welcome-note {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    padding: 100px 0px 0px 15px;
+    width: 95%;
+  }
+  .brief {
+    color: #fff;
+    padding: 10px 0px 0px 15px;
+    font-size: larger;
+  }
+  .btn {
+    margin: 40px 0px 0px 20px;
+  }
+  .about-section {
   
+  }
+  .about-title {
+    font-size: 20px;
+    margin: 40px;
+    font-weight: 500;
+    text-decoration: underline;
+  }
+  .about-head {
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: 600;
+  }
 }
