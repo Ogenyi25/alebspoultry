@@ -2,7 +2,7 @@ body {
   scroll-behavior: smooth;
 }
 .strong {
-  color: rgb(45, 192, 45);
+  color: #77b122;
 }
 .welcome-section {
   background-image: url(images/birds.png);
@@ -39,7 +39,10 @@ body {
   font-weight: 600;
 }
 .span {
-  color: rgb(80, 224, 80);
+  color: #77b122;
+}
+.decor {
+  margin: 5px 0px 10px 50px;
 }
 
 
@@ -47,8 +50,7 @@ body {
 
   .welcome-section {
     background-image: url(images/birds.png);
-    height: 90vh;
-    
+    height: 90vh; 
     width: 100%;
   }
   .welcome-note {
@@ -79,5 +81,8 @@ body {
     margin-left: 20px;
     font-size: 25px;
     font-weight: 600;
+  }
+  .decor {
+    margin: 5px 0px 0px 20px;
   }
 }
