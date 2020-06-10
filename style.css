@@ -15,6 +15,7 @@ body {
   color: #fff;
   padding: 150px 0px 0px 60px;
   width: 700px;
+  line-height: 60px;
 }
 .brief {
   color: #fff;
@@ -22,7 +23,7 @@ body {
   font-size: larger;
 }
 .btn {
-  margin: 50px 0px 0px 150px;
+  margin: 50px 0px 0px 70px;
 }
 .about-section {
   margin-top: 50px;
@@ -78,6 +79,7 @@ body {
     color: #fff;
     padding: 100px 0px 0px 15px;
     width: 95%;
+    line-height: 38px;
   }
   .brief {
     color: #fff;
