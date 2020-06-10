@@ -27,6 +27,8 @@ body {
 }
 .about-section {
   margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .about-title {
   font-size: 20px;
@@ -39,11 +41,16 @@ body {
   font-size: 35px;
   font-weight: 600;
 }
+.about-text {
+  line-height: 25px;
+  margin: 15px 10px 10px 20px;
+  font-weight: 100;
+}
 .span {
   color: #77b122;
 }
 .decor {
-  margin: 5px 0px 10px 50px;
+  margin: 5px 0px 10px 30px;
 }
 .video-play {
   margin-top: 50px;
@@ -63,6 +70,33 @@ body {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     z-index: 99;
+}
+
+.what-we-do {
+  margin-top: 50px;
+  background-color: #b4cfac3d;
+}
+.crates {
+  margin-left: -15px;
+  width: 100%;
+}
+.what-we-do-text {
+
+}
+.what-we-do-title {
+  font-size: 18px;
+  font-weight: 300;
+  margin: 100px 0px 10px 30px;
+}
+.wwd-head {
+  font-size: 35px;
+  font-weight: 600;
+  margin-left: 30px;
+}
+.wwd-text {
+  line-height: 25px;
+  margin: 15px 10px 10px 20px;
+  font-weight: 100;
 }
 
 
@@ -87,24 +121,27 @@ body {
     font-size: larger;
   }
   .btn {
-    margin: 40px 0px 0px 20px;
+    margin: 40px 0px 0px 15px;
   }
   .about-section {
   
   }
   .about-title {
     font-size: 20px;
-    margin: 40px;
+    margin: 40px 0px 40px 5px;
     font-weight: 500;
     text-decoration: underline;
   }
   .about-head {
-    margin-left: 20px;
+    margin-left: 5px;
     font-size: 25px;
     font-weight: 600;
   }
   .decor {
-    margin: 5px 0px 0px 20px;
+    margin: 5px 0px 0px 0px;
+  }
+  .about-text {
+    margin-left: 5px;
   }
   .video-play {
     margin-top: 50px;
@@ -113,5 +150,31 @@ body {
     height: 300px;
     width: 300px;
     border-radius: 100%;
+  }
+  .what-we-do {
+    margin: 50px 0px 0px 0px;
+    background-color: #b4cfac3d;
+  }
+  .crates {
+    width: 370px;
+    margin-left: -30px;
+  }
+  .what-we-do-text {
+  
+  }
+  .what-we-do-title {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 100px 0px 40px 5px;
+  }
+  .wwd-head {
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 5px;
+  }
+  .wwd-text {
+    line-height: 25px;
+    margin: 15px 10px 10px 5px;
+    font-weight: 100;
   }
 }
