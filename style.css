@@ -25,7 +25,7 @@ body {
   margin: 50px 0px 0px 150px;
 }
 .about-section {
-
+  margin-top: 50px;
 }
 .about-title {
   font-size: 20px;
@@ -43,6 +43,25 @@ body {
 }
 .decor {
   margin: 5px 0px 10px 50px;
+}
+.video-play {
+  margin-top: 50px;
+}
+.vidimg {
+  height: 400px;
+  width: 400px;
+  border-radius: 100%;
+}
+.video-play .play-icon {
+  position: absolute;
+    font-size: 40px;
+    color: #77b122;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 99;
 }
 
 
@@ -84,5 +103,13 @@ body {
   }
   .decor {
     margin: 5px 0px 0px 20px;
+  }
+  .video-play {
+    margin-top: 50px;
+  }
+  .vidimg {
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
   }
 }
