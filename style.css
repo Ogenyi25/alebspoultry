@@ -75,10 +75,12 @@ body {
 .what-we-do {
   margin-top: 50px;
   background-color: #b4cfac3d;
+  margin-bottom: 20px;
 }
 .crates {
   margin-left: -15px;
   width: 100%;
+  height: 85vh;
 }
 .what-we-do-text {
 
@@ -96,6 +98,35 @@ body {
 .wwd-text {
   line-height: 25px;
   margin: 15px 10px 10px 20px;
+  font-weight: 100;
+}
+.our-produce {
+  margin: 50px 0px 0px 20px;
+}
+.egglogo {
+  margin-top: -10px;
+}
+.egghead {
+  font-size: 23px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+.eggtext {
+  margin-top: 15px;
+  line-height: 25px;
+  font-weight: 100;
+}
+.birdlogo {
+  margin-top: -10px;
+}
+.birdhead {
+  font-size: 23px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+.birdtext {
+  margin-top: 15px;
+  line-height: 25px;
   font-weight: 100;
 }
 
@@ -175,6 +206,26 @@ body {
   .wwd-text {
     line-height: 25px;
     margin: 15px 10px 10px 5px;
+    font-weight: 100;
+  }
+  .our-produce {
+    margin: 50px 0px 0px 0px;
+  }
+  .eggs {
+    margin-left: 1px;
+    margin-bottom: 30px;
+  }
+  .egglogo {
+    margin-top: -5px;
+  }
+  .egghead {
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 10px;
+  }
+  .eggtext {
+    margin-top: 15px;
+    line-height: 25px;
     font-weight: 100;
   }
 }
