@@ -4,7 +4,7 @@
   }
     .welcome-section {
       background-image: url(images/birds.png);
-      height: 90vh; 
+      height: 85vh; 
       width: 100%;
     }
     .welcome-note {
@@ -20,8 +20,20 @@
       padding: 10px 0px 0px 15px;
       font-size: larger;
     }
-    .btn {
-      margin: 40px 0px 0px 15px;
+    .button {
+      margin: 50px 0px 0px 20px;
+      background-color: #77b122;
+      height: 40px;
+      border-radius: 5px;
+      border: none;
+      width: 110px;
+      margin-top: 80px;
+      color: #fff;
+      transition: ease-out .4s;
+    }
+    .button:hover {
+      background-color: #5d8a1a;
+      transition: ease-in .4s;
     }
     .about-section {
     
