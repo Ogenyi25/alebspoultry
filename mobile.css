@@ -70,6 +70,7 @@
     .crates {
       width: 370px;
       margin-left: -30px;
+      height: 350px;
     }
     .what-we-do-text {
     
@@ -134,88 +135,146 @@
       font-size: 25px;
     }
     .img {
-        text-align: center;
-      }
-      .fpimg {
-        margin-bottom: 50px;
-      }
-      .product-list {
+      text-align: center;
+    }
+    .fpimg {
+      margin-bottom: 50px;
+    }
+    .product-list {
       
-      }
-      .card {
-        width: 20rem;
-        height: 24rem;
-        background-color: #7070701a;
-        margin-left: 23px;
-        margin-right: auto;
-        border: none;
-      }
-      .egg {
-        width: 200px;
-        height: 250px;
-        margin-left: auto;
-        margin-right: auto;
-      }
-      .icons {
-        justify-content: center;
-        margin-top: 40px;
-      }
-      .icon {
-        padding-top: 12px;
-        margin-right: 5px;
-        background-color: #fff;
-        box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
-        width: 40px;
-        height: 40px;
-        border-radius: 100%;
-        transition: ease-out .5s;
-      }
-      .icon:hover {
-        background-color: #77b122;
-        transition: ease-in .5s;
-      }
-      .smallegg {
-        width: 300px;
-        height: 200px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 40px;
-      }
-      .product-name {
-        font-weight: 300;
-        margin-top: 5px;
-        font-size: 16px;
-        margin-bottom: 5px;
-        font-weight: 400;
-        color: #707070;
-        font-family: "Karla", sans-serif;
-      }
-      .product-price {
-        font-size: 18px;
-        font-family: "Karla", sans-serif;
-        color: #303030;
-        line-height: 1.3;
-        font-weight: 700;
-        margin-bottom: 20px;
-      }
+    }
+    .card {
+      width: 20rem;
+      height: 24rem;
+      background-color: #7070701a;
+      margin-left: 23px;
+      margin-right: auto;
+      border: none;
+    }
+    .egg {
+      width: 200px;
+      height: 250px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .icons {
+      justify-content: center;
+      margin-top: 40px;
+    }
+    .icon {
+      padding-top: 12px;
+      margin-right: 5px;
+      background-color: #fff;
+      box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+      width: 40px;
+      height: 40px;
+      border-radius: 100%;
+      transition: ease-out .5s;
+    }
+    .icon:hover {
+      background-color: #77b122;
+      transition: ease-in .5s;
+    }
+    .smallegg {
+      width: 300px;
+      height: 200px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 40px;
+    }
+    .product-name {
+      font-weight: 300;
+      margin-top: 5px;
+      font-size: 16px;
+      margin-bottom: 5px;
+      font-weight: 400;
+      color: #707070;
+      font-family: "Karla", sans-serif;
+    }
+    .product-price {
+      font-size: 18px;
+      font-family: "Karla", sans-serif;
+      color: #303030;
+      line-height: 1.3;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
           
-      .list {
-        text-align: center;
-      }
-      .store {
-        text-align: center;
-      }
-      .btn {
-        background-color: #77b122;
-        margin-bottom: 20px;
-        color: #fff;
-        font-weight: 400;
-        margin-left: auto;
-        margin-right: auto;
-      }
-      .btn:hover {
-        color: #fff;
-        font-weight: 600;
-        background-color: #5f8f18;
-      }
-  }
+    .list {
+      text-align: center;
+    }
+    .store {
+      text-align: center;
+    }
+    .btn {
+      background-color: #77b122;
+      margin-bottom: 20px;
+      color: #fff;
+      font-weight: 400;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .btn:hover {
+      color: #fff;
+      font-weight: 600;
+      background-color: #5f8f18;
+    }
+    .contact-section {
+      margin-top: 100px;
+    }
+    .contact-section-left {
+      margin-left: 25px;
+    }
+    .contact-details {
+      
+    }
+    .contact-title {
+      font-size: 14px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+      font-family: "Karla", sans-serif;
+      color: #707070;
+      line-height: 1.7;
+      font-weight: 400;
+    }
+    .contact-head {
+      font-family: "Karla", sans-serif;
+      color: #303030;
+      line-height: 1.3;
+      font-weight: 700;
+      margin-bottom: 10px;
+      font-size: 35px;
+    }
+    .form-control {
+      margin-bottom: 30px;
+    }
+    
+    .contact-maps {
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      height: 480px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+      
+    }
+    .contact-maps iframe {
+      width: 92vw;
+      height: 100%;
+      border: none !important;
+      margin-left: -100px;
+    }
+    .footer-section {
+      background-color: #000;
+      min-width: 100vw;
+    }
+    .footer-text {
+      text-align: center;
+      padding: 20px 0px 20px 0px;
+      color: #fff;
+      font-family: "Karla", sans-serif;
+      font-size: 13px;
+    }
+    
+}
