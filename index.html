@@ -34,13 +34,13 @@
                     <a class="nav-link" href="#ourproducts">Our Products</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Buy</a>
+                        <a class="nav-link" href="shop.html">Go Shopping</a>
                     </li>
                 </ul>
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -53,7 +53,7 @@
     <div class="welcome-section">
         <h5 class="welcome-note">WE FARM <strong class="strong">CHICKENS</strong> ETHICALLY AND PROFITABLY</h5>
         <p class="brief">We make it a priority to offer flexible service to accomodate your needs.</p>
-        <button class="button">Read More</button>
+        <button class="button"><a href="#aboutus">Read More</a></button>
     </div>
 
     <!--About Section-->
@@ -86,6 +86,7 @@
         </div>
     </div>
 
+    <!--WHAT WE DO SECTION-->
     <div class="what-we-do row container-fluid">
         <div class="col-12 col-md-6">
             <img class="crates" src="images/crates.jpg" alt="">
@@ -124,6 +125,7 @@
             </div>
         </div>
     </div>
+    <!--OUR PRODUCTS SECTION-->
     <div class="featured-product" id="ourproducts">
         <div class="fptitle">FEATURED PRODUCT</div>
         <div class="fphead"><span class="span">Our Products</span> Are Highest Quality</div>
@@ -181,11 +183,12 @@
             </div>
         </div>
         <div class="store">
-            <button class="btn">GO TO STORE</button>
+            <button class="btn"><a href="shop.html">GO TO STORE</a></button>
         </div>
     </div>
 
-    <div class="contact-section row container-fluid">
+    <!--CONTACT SECTION-->
+    <div class="contact-section row container-fluid" id="contact">
         <div class="col-12 col-md-5 contact-section-left">
             <div class="contact-title">CONTACT NOW</div>
             <div class="contact-head"><span class="span">Get In Touch</span> With Us</div>
@@ -194,17 +197,19 @@
             <form action="submit" class="contact-details">
                 <div class="row">
                     <div class="col-lg-6">
-                        <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+                        <input type="text" class="form-control form-input" name="name" placeholder="Your Name" required>
                     </div>
                     <div class="col-lg-6">
-                        <input type="email" class="form-control" name="email" placeholder="Your Email" required>
-                    </div>
-                    <div class="col-12">
-                        <input type="text" class="form-control" name="subject" placeholder="Your Subject" required>
-                    </div>
-                    <div class="col-12">
-                        <textarea name="message" class="form-control" cols="30" rows="10" placeholder="Your Message"
+                        <input type="email" class="form-control form-input" name="email" placeholder="Your Email"
                             required>
+                    </div>
+                    <div class="col-12">
+                        <input type="text" class="form-control form-input" name="subject" placeholder="Your Subject"
+                            required>
+                    </div>
+                    <div class="col-12">
+                        <textarea name="message" class="form-control form-input" cols="30" rows="10"
+                            placeholder="Your Message" required>
                         </textarea>
                     </div>
                     <div class="col-12">
@@ -215,6 +220,7 @@
 
         </div>
 
+        <!--GOOGLE MAP-->
         <div class="col-lg-6 contact-section-right">
             <div class="contact-maps mb-100">
                 <iframe
@@ -225,9 +231,75 @@
             </div>
         </div>
 
+        <!--FOOTER SECTION-->
         <div class="footer-section container-fluid">
-            <div class="footer-text">
-                Copyright ©2020 All rights reserved. Property of <strong class="strong">PAULINE'S POULTRY</strong>
+
+            <div class="footer-container container-fluid row">
+                <div class="col-12 col-sm-6 col-lg-6">
+                    <div class="footer-widget mb-80">
+                        <div class="brand-name">PAULINE'S <strong class="strong">POULTRY</strong></div>
+                        <p>Lorem ipsum dolor sit amet, consecte stare adipiscing elit. In act honcus risus atiner
+                            Pellentesque risus.</p>
+                        <div class="contact-info">
+                            <p><i class="fa fa-map-pin" aria-hidden="true"></i><span class="contact-link">My Address,
+                                    Nasarawa State</span>
+                            </p>
+                            <p><i class="fa fa-envelope" aria-hidden="true"></i><span
+                                    class="contact-link">myofficialemail@gmail.com</span>
+                            </p>
+                            <p><i class="fa fa-phone" aria-hidden="true"></i><span
+                                    class="contact-link">+2348132237756</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--FOOTER QUICK LINKS SECTION-->
+                <div class="col-12 col-sm-6 col-lg-3 quick-link">
+                    <div class="footer-widget mb-80">
+                        <h5 class="widget-title">QUICK LINK</h5>
+                        <!-- Footer Widget Nav -->
+                        <nav class="footer-widget-nav">
+                            <ul>
+                                <li><a class="footer-widget-nav" href="#">Purchase</a></li>
+                                <li><a class="footer-widget-nav" href="#">Policities</a></li>
+                                <li><a class="footer-widget-nav" href="#">Shipping</a></li>
+                                <li><a class="footer-widget-nav" href="#">FAQs</a></li>
+                                <li><a class="footer-widget-nav" href="#">Return</a></li>
+                                <li><a class="footer-widget-nav" href="#">Careers</a></li>
+                                <li><a class="footer-widget-nav" href="#">Payments</a></li>
+                                <li><a class="footer-widget-nav" href="#">Partners</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <!--FOOTER SOCIAL-LINKS SECTION-->
+                <div class="col-12 col-sm-6 col-lg-3 stay-connected">
+                    <div class="footer-widget mb-80">
+                        <h5 class="widget-title">STAY CONNECTED</h5>
+                        <!-- Footer Social Info -->
+                        <div class="footer-social-info">
+                            <a href="www.facebook.com/john.otor3">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                                <span>Facebook</span>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                                <span>Twitter</span>
+                            </a>
+                            <a href="www.instagram.com/ogenyi21">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                                <span>Instagram</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-holder">
+                <div class="footer-text">
+                    Copyright ©2020 All rights reserved. Property of <strong class="strong">PAULINE'S POULTRY</strong>
+                </div>
             </div>
         </div>
     </div>
