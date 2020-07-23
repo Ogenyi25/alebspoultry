@@ -41,6 +41,12 @@ body {
 .store-content {
     margin-top: 50px;
 }
+.shop-cart {
+    text-decoration: none;
+}
+.shop-cart:hover {
+    text-decoration: none;
+}
 .store-list {
     margin-left: -8rem;
 }
